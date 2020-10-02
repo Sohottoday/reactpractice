@@ -18,6 +18,8 @@ tweet = twitter_api.search(query)
 for tw in tweet:
     api_result.append(tw.text)
 
-print(api_result)
+#print(api_result)
+for aaa in api_result:
+    print(aaa)
 
 
